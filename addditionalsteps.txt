@@ -1,0 +1,9 @@
+On the client machine
+
+yum install java -y
+yum install java-1.6.0-openjdk
+mkdir -p  /usr/java/default/bin/
+ln -s /usr/bin/java  /usr/java/default/bin/java
+
+
+
